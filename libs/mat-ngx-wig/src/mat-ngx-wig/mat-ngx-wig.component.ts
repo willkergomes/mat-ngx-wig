@@ -87,6 +87,26 @@ export class MatNgxWigComponent extends _MatInputMixinBase
 
   private _placeholder: string;
 
+  @Input()
+  public get buttons(): string {
+    return this._buttons;
+  }
+  public set buttons(newButtons: string) {
+    this._buttons = newButtons;
+  }
+
+  private _buttons: string;
+
+  @Input()
+  public get content(): string {
+    return this._content;
+  }
+  public set content(newcontent: string) {
+    this._content = newcontent;
+  }
+
+  private _content: string;
+
   public focused: boolean = false;
 
   public get empty(): boolean {
