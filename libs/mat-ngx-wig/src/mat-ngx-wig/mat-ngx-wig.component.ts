@@ -134,7 +134,7 @@ export class MatNgxWigComponent extends _MatInputMixinBase
 
   private _disabled: boolean = false;
 
-  public shouldPlaceholderFloat: boolean = false;
+  public shouldLabelFloat: boolean = false;
 
   public readonly controlType: string = 'mat-ngx-wig';
 
