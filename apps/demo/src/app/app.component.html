@@ -1,12 +1,15 @@
 <div class="mat-app-background basic-container">
   <div class="example-container">
-    <mat-form-field>
-      <input type="text" matInput>
-    </mat-form-field>
+    <div>Result</div>
+    <div [innerHTML]="value"></div>
+    <div>HTML</div>
+    <div>{{value}}</div>
 
     <div>Editor</div>
     <mat-form-field>
       <mat-ngx-wig [formControl]="editorControl"
+                   buttons="list1,list2,bold,italic,underline"
+                   [(ngModel)]="value"
                    placeholder="Placeholder for editor">
       </mat-ngx-wig>
 

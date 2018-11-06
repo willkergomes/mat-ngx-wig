@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from "@angular/core";
 import { FormControl, Validators } from '@angular/forms';
 
 
@@ -8,6 +8,8 @@ import { FormControl, Validators } from '@angular/forms';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
+
+  @Input() value;
 
   public editorControl: FormControl = new FormControl('', Validators.required);
 
