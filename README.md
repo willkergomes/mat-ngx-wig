@@ -15,6 +15,10 @@ We recommend to use [Material Design Icons](https://cdn.materialdesignicons.com/
 ## Example
 ```html
 <mat-form-field>
-  <mat-ngx-wig placeholder="Placeholder for editor"></mat-ngx-wig>
+  <mat-ngx-wig placeholder="Placeholder for editor" 
+               [formControl]="editorControl"
+               buttons="list1,list2,bold,italic,underline"
+               [(ngModel)]="value"
+  ></mat-ngx-wig>
 </mat-form-field>
 ```
