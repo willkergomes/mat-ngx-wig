@@ -12,15 +12,16 @@
     "material",
     "angular material",
     "WYSIWYG",
-    "editor"
+    "editor",
+    "ngx-wig"
   ],
   "bugs": {
-    "email": "alexey.shakura@gmail.com",
-    "url": "https://github.com/alexshakura/mat-ngx-wig/issues"
+    "email": "willker.gomes@gmail.com",
+    "url": "https://github.com/willkergomes/mat-ngx-wig/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexshakura/mat-ngx-wig"
+    "url": "https://github.com/willkergomes/mat-ngx-wig"
   },
   "peerDependencies": {
     "@angular/common": "^6.0.0",
